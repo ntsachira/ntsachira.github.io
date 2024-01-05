@@ -1,226 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IRON_CODE - Software Company</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="public/images/logofull.png">
+    <link rel="icon" type="image/png" href="public/logo-01.png" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="semantic/dist/semantic.min.css"
+    />
+
     <!-- Custom CSS -->
     <style>
-        body {
-            background-color: #f0f0f0;
-            color: #333;
-        }
-        .navbar {
-            background-color: #2c3e50;
-        }
-        .navbar-brand {
-            color: #fff;
-            font-size: 1.5rem;
-        }
-        .service-card {
-            border: none;
-            border-radius: 0;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .service-card img {
-            max-height: 200px;
-            object-fit: cover;
-        }
-        .footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-        }
-        .contact-form {
-            background-color: #fff;
-            padding: 40px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 30px;
-        }
-        .contact-form label {
-            font-weight: bold;
-        }
-        .contact-form input,
-        .contact-form textarea {
-            margin-bottom: 15px;
-        }
-        .contact-form textarea {
-            resize: vertical;
-        }
-        .prof{
-            
-            
-        }
+      body {
+        background-color: #f0f0f0;
+        color: #333;
+      }
+      .navbar {
+        background-color: #2c3e50;
+      }
+      .navbar-brand {
+        color: #fff;
+        font-size: 1.5rem;
+      }
+      .service-card {
+        border: none;
+        border-radius: 0;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .service-card img {
+        max-height: 200px;
+        object-fit: cover;
+      }
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+      }
+      .contact-form {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+      }
+      .contact-form label {
+        font-weight: bold;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        margin-bottom: 15px;
+      }
+      .contact-form textarea {
+        resize: vertical;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">IRON_CODE</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Our Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-us">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#our-team">Our team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <header class="bg-primary text-center py-5">
-        <h1 class="display-4 text-white fw-semibold">Welcome to IRON_CODE Software Solutions</h1>
-        <p class="lead text-white">Your Software Solution Provider</p>
-    </header>
-
-   
-
-   <!-- About Us Section -->
-   <section id="about-us" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">About Us</h2>
-     
-        <p><span class="fw-medium">IRON_CODE Software Solutions</span> is a leading software development company that specializes in delivering cutting-edge technology solutions to businesses of all sizes. With a passion for innovation and a team of dedicated professionals, we aim to empower our clients by creating powerful software that drives growth and efficiency.</p>
-        <p class="fw-semibold fs-5">Why Choose IRON_CODE?</p>
-        <ul>
-            <li><span class="fw-medium">Expertise:</span> Our team brings extensive expertise and experience in the software development industry, ensuring that your projects are in capable hands.</li>
-            <li><span class="fw-medium">Innovation:</span> We embrace the latest technologies and industry trends to build innovative and future-ready solutions for your business.</li>
-            <li><span class="fw-medium">Customer-Centric Approach:</span> We believe in building strong relationships with our clients by putting their needs at the forefront of our operations.</li>
-            <li><span class="fw-medium">Quality Assurance:</span> Our stringent quality assurance process guarantees that each deliverable is thoroughly tested and meets the highest standards.</li>
-            <li><span class="fw-medium">Timely Delivery:</span> We understand the importance of timely project delivery and strive to meet deadlines without compromising on quality.</li>
-        </ul>
-       
-        
-    </div>
-</section>
-
-  <!-- Our Team Section -->
-  <section id="our-team" class="bg-light py-5">
+    <div class="ui blue attached borderless menu">
       <div class="container">
-          <h2 class="text-center mb-4">Our Team</h2>
+        <div class="item header gap-2">
+          <img src="public/logo-01.png" />
+          <a class="header">IRON_CODE</a>
+        </div>
+
+        <div class="right align-items-center menu">
+          <a class="item d-none d-md-block" href="#about-us">About Us</a>
+          <a class="item d-none d-md-block" href="#services">Our Services</a>
+          <a class="item d-none d-md-block" href="#our-team">Our Team</a>
+          <a class="item d-none d-md-block" href="#contact">Contact</a>
+          <a class="ui d-md-none item" id="drop" onclick="toggleSidebar()">
+            <i class="sidebar icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui right vertical inverted menu sidebar shadow" id="sidebar">
+      <a class="item header" onclick="toggleSidebar()">
+        Menu
+        <i class="close icon"></i>
+      </a>
+      <a href="#about-us" class="item" onclick="toggleSidebar()"> About Us </a>
+      <a href="#services" class="item" onclick="toggleSidebar()">
+        Our Services
+      </a>
+      <a href="#our-team" class="item" onclick="toggleSidebar()"> Our Team </a>
+      <a href="#contact" class="item" onclick="toggleSidebar()"> Contact </a>
+    </div>
+    <div class="pusher">
+      <!-- Hero Section -->
+      <div class="ui inverted center aligned segment">
+        <div
+          class="ui container d-flex flex-column justify-content-center"
+          style="height: 40rem"
+        >
+          <h1 class="fs-1">Welcome</h1>
+          <h1 class="" style="font-size: 4rem">IRON_CODE Software</h1>
+          <p class="lead text-white fs-2">Your trusted Software Provider</p>
+          <a href="#contact" class="ui blue inverted button">Contact Now</a>
+        </div>
+      </div>
+
+      <!-- About Us Section -->
+      <section id="about-us" class="py-5">
+        <div class="container">
+          <h1 class="text-center mb-4 fs-1">About Us</h1>
+
+          <p>
+            <span class="fw-medium">IRON_CODE Software Solutions</span> is a
+            leading software development company that specializes in delivering
+            cutting-edge technology solutions to businesses of all sizes. With a
+            passion for innovation and a team of dedicated professionals, we aim
+            to empower our clients by creating powerful software that drives
+            growth and efficiency.
+          </p>
+          <p class="fw-semibold fs-2">Why Choose IRON_CODE?</p>
+          <ul>
+            <li>
+              <span class="fw-medium">Expertise:</span> Our team brings
+              extensive expertise and experience in the software development
+              industry, ensuring that your projects are in capable hands.
+            </li>
+            <li>
+              <span class="fw-medium">Innovation:</span> We embrace the latest
+              technologies and industry trends to build innovative and
+              future-ready solutions for your business.
+            </li>
+            <li>
+              <span class="fw-medium">Customer-Centric Approach:</span> We
+              believe in building strong relationships with our clients by
+              putting their needs at the forefront of our operations.
+            </li>
+            <li>
+              <span class="fw-medium">Quality Assurance:</span> Our stringent
+              quality assurance process guarantees that each deliverable is
+              thoroughly tested and meets the highest standards.
+            </li>
+            <li>
+              <span class="fw-medium">Timely Delivery:</span> We understand the
+              importance of timely project delivery and strive to meet deadlines
+              without compromising on quality.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Our Team Section -->
+      <section id="our-team" class="bg-light py-5">
+        <div class="container">
+          <h2 class="text-center fs-1 mb-4">Our Team</h2>
           <div class="row">
-              <div class="col-md-4">
-                  <div class="card mb-4">
-                      <img src="developer.jpg" class="card-img-top prof" alt="Team Member 1">
-                      <div class="card-body">
-                          <h5 class="card-title">Ravindu Madushanka</h5>
-                          <p class="card-text">Developer</p>
+            <div class="ui aligned centered special cards">
+              <!-- card 1 -->
+              <div class="card" >
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer" id="dimcard" >
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button" >Contact Developer</div>
                       </div>
+                    </div>
                   </div>
+                  <img src="developer.jpg" />
+                </div>
+                <div class="content">
+                  <a class="header">Ravindu Madushanka</a>
+                  <div class="meta">
+                    <span class="date">Joined in Sep 2023</span>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <a>
+                    <i class="users icon"></i>
+                    Developer
+                  </a>
+                </div>
               </div>
-              <div class="col-md-4">
-                  <div class="card mb-4">
-                      <img src="developer.jpg" class="card-img-top prof" alt="Team Member 2">
-                      <div class="card-body">
-                          <h5 class="card-title">Oshadha Dilhan</h5>
-                          <p class="card-text">Developer</p>
+              <!-- card 2 -->
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button">Contact Developer</div>
                       </div>
+                    </div>
                   </div>
+                  <img src="developer.jpg" />
+                </div>
+                <div class="content">
+                  <a class="header">Oshada Dilhan</a>
+                  <div class="meta">
+                    <span class="date">Joined in Sep 2023</span>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <a>
+                    <i class="users icon"></i>
+                    Developer
+                  </a>
+                </div>
               </div>
-              <div class="col-md-4">
-                  <div class="card mb-4">
-                      <img src="developer.jpg" class="card-img-top prof" alt="Team Member 3">
-                      <div class="card-body">
-                          <h5 class="card-title">SachiraJayawardana</h5>
-                          <p class="card-text">Developer</p>
+              <!--card 3  -->
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button">Contact Developer</div>
                       </div>
+                    </div>
                   </div>
+                  <img src="developer.jpg" />
+                </div>
+                <div class="content">
+                  <a class="header">Sachira Jayawardana</a>
+                  <div class="meta">
+                    <span class="date">Joined in Sep 2023</span>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <a>
+                    <i class="users icon"></i>
+                    Developer
+                  </a>
+                </div>
               </div>
+            </div>
           </div>
-      </div>
-  </section>
+        </div>
+      </section>
 
- <!-- Services Section -->
- <section id="services" class="py-5">
-  <div class="container">
-      <h2 class="text-center mb-4">Our Services</h2>
-      <div class="row">
-          <div class="col-md-4">
-              <div class="card service-card mb-4">
-                  <img src="web.jpeg" class="card-img-top" alt="Web Application Development">
-                  <div class="card-body">
-                      <h5 class="card-title">Web Application Development</h5>
-                      <p class="card-text">E-Commerce applications, Website Designing</p>
-                  </div>
-              </div>
+      <!-- modal -->
+      <div class="ui  modal" style="left: auto; top: auto; height: auto;" id="modal">        
+        <div class="header">Design Preview</div>
+        <div class="image content">          
+          <div class="description">                      
+              <div class="rowjustify-content-end">
+                
+                <div class="col-12 border " style="max-width: 61.5rem;" >
+                  <img src="web.jpeg" id="modal-image" style="width: 100%; object-fit:contain; object-position: top;" alt="image">
+                </div>
+               
+              </div>           
           </div>
-          <div class="col-md-4">
-              <div class="card service-card mb-4">
-                  <img src="allscreens.png" class="card-img-top" alt="Mobile applications">
-                  <div class="card-body">
-                      <h5 class="card-title">Mobile applications</h5>
-                      <p class="card-text">React Native/Flutter development</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4">
-              <div class="card service-card mb-4">
-                  <img src="java.png" class="card-img-top" alt="Java Applications">
-                  <div class="card-body">
-                      <h5 class="card-title">Java Applications</h5>
-                      <p class="card-text">Custom Java software development, POS Systems</p>
-                  </div>
-              </div>
-          </div>
+        </div>
+        <div class="actions">
+          <div class="ui black deny button">Close</div>          
+        </div>
       </div>
-  </div>
-</section>
 
-<!-- Contact Section -->
-<section id="contact" class="bg-light py-5">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-6 mx-auto">
+      <!-- Services Section -->
+      <section id="services" class="py-5">
+        <div class="container">
+          <h1 class="text-center fs-1 mb-4">Our Services</h1>
+          <div class="row">
+            <div class="ui special aligned centered cards">
+              <!-- card 1 -->
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button" onclick="toggleModal('web.jpeg')">Preview Designs</div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="web.jpeg"
+                    style="
+                      height: 13rem;
+                      object-fit: cover;
+                      object-position: top;
+                    "
+                  />
+                </div>
+                <div class="content">
+                  <a class="header">Web Application Development</a>
+                  <div class="meta">
+                    <span class="date"
+                      >E-Commerce applications, Website Designing</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button" onclick="toggleModal('allscreens.png')">Preview Designs</div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="allscreens.png"
+                    style="height: 13rem; object-fit: cover"
+                  />
+                </div>
+                <div class="content">
+                  <a class="header">Mobile applications</a>
+                  <div class="meta">
+                    <span class="date">React Native/Flutter development</span>
+                  </div>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button" onclick="toggleModal('java.png')">
+                          Preview Designs
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="java.png"
+                    style="
+                      height: 13rem;
+                      object-fit: cover;
+                      object-position: left;
+                    "
+                  />
+                </div>
+                <div class="content">
+                  <a class="header">Java Applicationst</a>
+                  <div class="meta">
+                    <span class="date"
+                      >Custom Java software development, POS Systems</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="bg-light py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mx-auto">
               <div class="contact-form">
-                  <h2 class="text-center mb-4">Contact Us</h2>
-                  <form action="mailto:ironcodesoftware9@gmail.com" method="POST" enctype="text/plain">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name" name="name" required>
-                      </div>
-                      <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Your Email" name="email" required>
-                      </div>
-                      <div class="form-group">
-                        <textarea class="form-control" rows="5" placeholder="Your Message" name="message" required></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-                  </form>
+                <h2 class="text-center fs-1 mb-4">Contact Us</h2>
+                <form
+                  action="mailto:ironcodesoftware9@gmail.com"
+                  method="POST"
+                  enctype="text/plain"
+                >
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name"
+                      name="name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      rows="5"
+                      placeholder="Your Message"
+                      name="message"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="ui button primary">
+                    Send Message
+                  </button>
+                </form>
               </div>
+            </div>
           </div>
+        </div>
+      </section>
+      <div class="row">
+        <a href="#" class="ui button">Back to Top &UpArrow;</a>
       </div>
-  </div>
-</section>
-
-  
-
-    <!-- Footer Section -->
-    <footer class="footer text-center">
-        <p>&copy; 2023 IRON_CODE. All rights reserved.</p>
-        <p>Mobile: 0714798940 | Email: ironcodesoftware9@gmail.com</p>
-    </footer>
-
+      <script>
+        fetch("footer.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("footer").innerHTML = data;
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      </script>
+      <!-- Footer Section -->
+      <footer
+        class="ui inverted attached segment text-center"
+        id="footer"
+      ></footer>
+    </div>
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="semantic/dist/semantic.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
